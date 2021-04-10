@@ -32,9 +32,9 @@ class _AppHomeScreenState extends State<AppHomeScreen>
         // permissions[PermissionHandler.Permission.microphone] ==
         // PermissionHandler.PermissionStatus.granted // audio
         // &&
-        permissions[PermissionHandler.Permission.storage] ==
-                PermissionHandler.PermissionStatus.granted // local store
-            &&
+        // permissions[PermissionHandler.Permission.storage] ==
+        //         PermissionHandler.PermissionStatus.granted // local store
+        //     &&
             permissions[PermissionHandler.Permission.camera] ==
                 PermissionHandler.PermissionStatus.granted // take photo
         ) {
